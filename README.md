@@ -176,12 +176,3 @@ Note: This command needs to run from every new terminal you start. If you wish
 to avoid running this manually, you can add it as a new line to the end of your
 ~/.bashrc file, replacing \`pwd\` with the absolute path of
 tensorflow/models/research on your system.
-
-# Testing the Installation
-
-You can test that you have correctly installed the Tensorflow Object Detection\
-API by running the following command:
-
-```bash
-python object_detection/builders/model_builder_test.py
-```
